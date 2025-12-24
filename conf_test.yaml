@@ -1,3 +1,14 @@
+stage:
+  width: 10.0    # meters (x-axis)
+  depth: 6.0     # meters (y-axis)
+  height: 4.0    # meters (z-axis)
+  grid_spacing: 1.0  # meters
+
+artnet:
+  ip: "127.0.0.1"
+  port: 6454
+  universes: [0, 1]
+
 fixtures:
 - address: 1
   available_modes:
